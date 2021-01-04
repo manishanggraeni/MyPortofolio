@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'head.html' %}
+    {% block head %}{% endblock head %}
+</head>
+
+<body>
+    {% include 'header.html' %}
+
+    {% block content %}{% endblock content %}
+
+    {% include 'footer.html' %}
+
+    </br></br>
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    {% include 'script.html' %}
+    {% block script %}{% endblock %}
+</body>
+
+
+</html>
